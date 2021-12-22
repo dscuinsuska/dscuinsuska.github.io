@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+
+:root {
+    --primary-color: #F9F7F7;
+    --secondary-color: #DBE2EF;
+    --tertiary-color: #3F72AF;
+}
+
+section.jumbotron {
+    padding-top: 6rem;
+    background-color: var(--secondary-color);
+    background: url(../img/banner-home.png) no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    height: 360px;
+}
+
+#projects {
+    background-color: var(--secondary-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+}
+
+section {
+    padding-top: 5rem;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+.lobster-fm {
+    font-family: 'Lobster', cursive;
+}
+
+.paficio-fm {
+    font-family: 'Pacifico', cursive;
+}
+
+.sub-head {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
