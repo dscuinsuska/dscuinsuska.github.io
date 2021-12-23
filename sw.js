@@ -2,8 +2,6 @@ var CACHE_NAME = 'gdsc-uin-suska-cache-v1';
 var urlsToCache = [
     '/',
     '/index.html',
-    '/assets/css/style.css',
-    '/assets/js/script.js',
 ];
 
 self.addEventListener('install', function (event) {
