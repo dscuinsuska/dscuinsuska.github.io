@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
 
 :root {
-    --primary-color: #F9F7F7;
-    --secondary-color: #DBE2EF;
-    --tertiary-color: #3F72AF;
+    --primary-color: #222831;
+    --secondary-color: #393E46;
+    --tertiary-color: #00ADB5;
+    --last-color: #EEEEEE;
 }
 
 section.jumbotron {
