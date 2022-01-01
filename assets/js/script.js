@@ -10,9 +10,42 @@ fetch('https://raw.githubusercontent.com/dscuinsuska/members/main/memberData.jso
   });
 
 function appendData(data) {
-  var mainContainer = document.getElementById("myData");
-  data.forEach(element => {
-    var div = document.createElement("div");
+  // Core Team Data
+  const coreContainer = document.getElementById("core");
+  data.core.forEach(element => {
+    const div = document.createElement("div");
+    div.className = "col-md-4 mb-3"
+    div.innerHTML = `
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">${element.nama}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">${element.nim}</h6>
+                        <p class="card-text">${element.jurusan}</p>                    
+                    </div>
+                </div>
+        `;
+    coreContainer.appendChild(div);
+  });
+  // Expert Team Data
+  const expertContainer = document.getElementById("expert");
+  data.expert.forEach(element => {
+    const div = document.createElement("div");
+    div.className = "col-md-4 mb-3"
+    div.innerHTML = `
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">${element.nama}</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">${element.nim}</h6>
+                        <p class="card-text">${element.bidang}</p>                    
+                    </div>
+                </div>
+        `;
+    expertContainer.appendChild(div);
+  });
+  // Members Data
+  const memberContainer = document.getElementById("members");
+  data.members.forEach(element => {
+    const div = document.createElement("div");
     div.className = "col-md-4 mb-3"
     div.innerHTML = `
                 <div class="card">
@@ -23,7 +56,7 @@ function appendData(data) {
                     </div>
                 </div>
         `;
-    mainContainer.appendChild(div);
+    memberContainer.appendChild(div);
   });
 }
 
