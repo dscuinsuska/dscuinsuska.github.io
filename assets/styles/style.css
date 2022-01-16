@@ -4,13 +4,13 @@
     --primary-color: #222831;
     --secondary-color: #393E46;
     --tertiary-color: #00ADB5;
-    --last-color: #EEEEEE;
+    --last-color: #ffffff;
 }
 
 section.jumbotron {
     padding-top: 6rem;
     background-color: var(--secondary-color);
-    background: url(../img/banner-home.png) no-repeat center center;
+    background: url(../images/banner-home.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 360px;
@@ -21,7 +21,7 @@ section.jumbotron {
 }
 
 nav {
-    background-color: var(--primary-color);
+    background-color: var(--last-color);
 }
 
 section {
