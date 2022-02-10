@@ -1,49 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 :root {
-    --primary-color: #222831;
-    --secondary-color: #393E46;
-    --tertiary-color: #00ADB5;
-    --last-color: #ffffff;
+    --yellow-color: #FBBC04;
+    --green-color: #34A853;
+    --red-color: #EA4335;
+    --blue-color: #4285F4;
+    --black-80-color: #656C73;
+    --black-color: #222831;
+    --white-color: #ffffff;
 }
 
-section.jumbotron {
-    padding-top: 6rem;
-    background-color: var(--secondary-color);
-    background: url(../images/banner-home.png) no-repeat center center;
-    background-size: cover;
-    width: 100%;
-    height: 360px;
+.red {
+    color: var(--red-color);
 }
 
-#projects {
-    background-color: var(--secondary-color);
+.blue {
+    color: var(--blue-color);
+}
+
+.green {
+    color: var(--green-color);
+}
+
+.yellow {
+    color: var(--yellow-color);
+}
+
+.black-80 {
+    color: var(--black-80-color);
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
-    background-color: var(--last-color);
+    background-color: var(--white-color);
 }
 
-section {
-    padding-top: 5rem;
+section.jumbotron {
+    padding: 7rem;
+}
+
+.desc_dsc {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--black-80-color);
 }
 
 a:hover {
+    color: var(--blue-color);
     font-weight: bold;
-}
-
-.lobster-fm {
-    font-family: 'Lobster', cursive;
-}
-
-.paficio-fm {
-    font-family: 'Pacifico', cursive;
-}
-
-.sub-head {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 1.2rem;
 }
