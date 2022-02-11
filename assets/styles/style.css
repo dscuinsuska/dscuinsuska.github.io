@@ -39,7 +39,7 @@ nav {
     background-color: var(--white-color);
 }
 
-section.jumbotron {
+#jumbotron_home {
     padding: 7rem;
 }
 

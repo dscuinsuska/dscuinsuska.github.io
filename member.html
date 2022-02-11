@@ -43,79 +43,96 @@
 </head>
 
 <body id="home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
-        <div class="container">
-            <a class="navbar-brand m-0" href="#">
-                <img src="./assets/images/logo.png" alt="Brand" width="60%">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item pe-3">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="member.html">Our Family</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="event.html">Events</a>
-                    </li>
-                    <li class="nav-item ps-3">
-                        <a class="nav-link" href="project.html">Projects</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- END Navbar -->
-
-    <!-- Member -->
-    <section id="member">
-        <div class="container">
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2 class="lobster-fm">GDSC Lead</h2>
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light shadow-sm fixed-top">
+            <div class="container">
+                <a class="navbar-brand m-0" href="#">
+                    <img src="./assets/images/logo.png" alt="Brand" width="60%">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="/">Home</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link active text-primary" href="member.html">Our Family</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="event.html">Events</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="project.html">Projects</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-md-4 mb-3">
-                    <div class="card">
-                        <div class="card-body text-center">
-                            <h5 class="card-title">Muhammad Rizki Syafapri</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">12050110483</h6>
-                            <p class="card-text">Teknik Informatika</p>
+        </nav>
+        <!-- END Navbar -->
+
+        <!-- Jumbotron -->
+        <section id="jumbotron_member" class="pt-5">
+            <img src="./assets/images/header_member.png" alt="Header Member" width="100%" height="100%">
+        </section>
+        <!-- END Jumbotron -->
+    </header>
+
+    <main>
+        <!-- Member -->
+        <section id="member">
+            <div class="container pt-5">
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <p class="fs-3">2021/2022</p>
+                        <h2>Google Developer Student Clubs Lead</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="card text-center mb-3 shadow-sm" style="width: 16rem;">
+                        <img src="./assets/images/members/lead.png" class="card-img-top p-4" alt="GDSC Lead">
+                        <div class="card-body">
+                            <p class="card-text fs-5 fw-bold">Muhammad Rizki Syafapri</p>
+                            <p class="card-text">GDSC Lead UIN Sultan Syarif Kasim Riau</p>
+                            <a href="https://www.instagram.com/mrsyafapri/" target="_blank" rel="noopener noreferrer"
+                                class="text-decoration-none p-2">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/muhammad-rizki-syafapri-8999b5185" target="_blank"
+                                rel="noopener noreferrer" class="text-decoration-none p-2">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2 class="lobster-fm">Core Teams</h2>
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>Core Teams</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center" id="core"></div>
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2 class="lobster-fm">Expert Teams</h2>
+                <div class="row justify-content-center" id="core"></div>
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2>Expert Teams</h2>
+                    </div>
                 </div>
-            </div>
-            <div class="row justify-content-center" id="expert"></div>
-            <div class="row text-center mb-3">
-                <div class="col">
-                    <h2 class="lobster-fm">Our Members</h2>
+                <div class="row justify-content-center" id="expert"></div>
+                <div class="row text-center mb-3">
+                    <div class="col">
+                        <h2 class="lobster-fm">Our Members</h2>
+                    </div>
                 </div>
+                <div class="row justify-content-center" id="members"></div>
             </div>
-            <div class="row justify-content-center" id="members"></div>
-        </div>
-    </section>
-    <!-- END Member -->
+        </section>
+        <!-- END Member -->
+    </main>
 
     <!-- Footer -->
     <div class="container">
